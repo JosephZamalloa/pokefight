@@ -17,7 +17,7 @@ function renderPoke(poke, targetElement,pos)
         }
         return `
           <div class="name-order" >  
-                <span class="boton-poke" id="${num}" onclick="selecciona(${num},${player})" >${(pokemon.name).charAt(0).toUpperCase()+(pokemon.name).slice(1)} ${num}
+                <span class="boton-poke" id="${num}" onclick="selecciona(${num},${player})" >${(pokemon.name).charAt(0).toUpperCase()+(pokemon.name).slice(1)}
                 <img src="https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other/home/${num}.png?raw=true" width="190px">
                 </span>
           </div>
